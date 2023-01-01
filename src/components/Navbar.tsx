@@ -14,7 +14,7 @@ const Navbar = () => {
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
-      <ul className={click ? classes.nav_menuactive : classes.nav_menu}>
+      <ul className={`${classes.nav_menu} ${click ? classes.active : null}`}>
         <li>
           <Link to="/">Home</Link>
         </li>

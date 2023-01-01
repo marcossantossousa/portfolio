@@ -5,7 +5,6 @@
     padding: 1rem;
 }
 
-
 .nav_menu {
     display: flex;
 }
@@ -33,24 +32,24 @@
         background: 0, 0, 0, 0.9;
         position: absolute;
         top: 0;
-        left: -100;
+        left: -100%;
         z-index: -3;
         transition: 0.3s;
     }
-}
 
-.nav_menu.active {
-    left: 0;
-}
+    .active {
+        left: 0;
+    }
 
-.nav_menu li {
-    padding: 1rem 0;
-}
+    .nav_menu li {
+        padding: 1rem 0;
+    }
 
-.nav_menu li {
-    font-size: 2rem;
-}
+    .nav_menu li {
+        font-size: 2rem;
+    }
 
-.ham_menu {
-    display: initial;
+    .ham_menu {
+        display: block;
+    }
 }
