@@ -1,4 +1,3 @@
-import React from "react";
 import Home from "./routes/Home";
 import Projetos from "./routes/Projetos";
 import Sobre from "./routes/Sobre";
