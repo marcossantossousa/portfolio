@@ -1,4 +1,4 @@
-import classes from "./Navbar.module.css";
+import "./NavbarStyles.css";
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -9,12 +9,22 @@ const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (scrollY >= 100) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+  addEventListener("scroll", changeColor);
+
   return (
-    <div className={classes.header} onClick={handleClick}>
+    <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
         <h1>Portfolio</h1>
       </Link>
-      <ul className={`${classes.nav_menu} ${click ? classes.active : null}`}>
+      <ul className={click ? "nav_menu active" : "nav_menu"}>
         <li>
           <Link to="/">Home</Link>
         </li>
@@ -28,7 +38,7 @@ const Navbar = () => {
           <Link to="/contato">Contato</Link>
         </li>
       </ul>
-      <div className={classes.ham_menu}>
+      <div className="ham_menu" onClick={handleClick}>
         {click ? (
           <FaTimes size={20} style={{ color: "#fff" }} />
         ) : (
