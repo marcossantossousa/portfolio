@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPhone,
+  FaWhatsapp,
 } from "react-icons/fa";
 import "./FooterStyles.css";
 
@@ -13,32 +14,48 @@ const Footer = () => {
       <div className="Footer-container">
         <div>
           <div className="entre-contato">
-            <h4>Entre em contato:</h4>
-            <div className="social">
+            <h4 className="contato-footer">Contato</h4>
+
+            <div className="social ">
               <FaInstagram
-                size={30}
+                size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
-              <FaLinkedinIn
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaPhone
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
-              <FaEnvelope
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+
+              <a
+                href="www.linkedin.com/in/marcossantosdeveloper"
+                target="_blank"
+              >
+                <FaLinkedinIn
+                  size={20}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+              </a>
+              <a href="https://github.com/marcossantossousa" target="_blank">
+                {" "}
+                <FaGithub
+                  size={20}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+              </a>
+
+              <a href="mailto:marckossanttos@gmail.com" target="_blank">
+                <FaEnvelope
+                  size={20}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+              </a>
+              <a href="https://wa.me/5571999942335" target="_blank">
+                <FaWhatsapp
+                  size={20}
+                  style={{ color: "#fff", marginRight: "1rem" }}
+                />
+              </a>
             </div>
           </div>
         </div>
       </div>
+      <p>Desenvolvedor frontend</p>
     </div>
   );
 };
