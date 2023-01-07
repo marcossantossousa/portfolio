@@ -13,13 +13,15 @@
 }
 
 .contato-footer {
+    justify-content: center;
     text-align: center;
     text-transform: uppercase;
 }
 
 .social {
     bottom: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
 }
 
@@ -28,8 +30,7 @@ h4 {
     padding-bottom: 0.7rem;
 }
 
-p {
-    font-size: 0.8rem;
-    margin-top: 0.7rem;
-    font-weight: bold;
+.btn-icons {
+    margin-top: 30px;
+    position: relative;
 }

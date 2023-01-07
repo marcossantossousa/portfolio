@@ -1,7 +1,13 @@
-import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Contato = () => {
-  return <div>Contato</div>;
+  return (
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
+  );
 };
 
 export default Contato;

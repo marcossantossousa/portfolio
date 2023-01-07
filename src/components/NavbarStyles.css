@@ -11,7 +11,7 @@
 
 .header-bg {
     background-color: rgba(0, 0, 0, 0.85);
-    transition: 0.5s;
+    transition: 1s;
 }
 
 .nav_menu {
@@ -27,6 +27,11 @@
 .nav_menu li a {
     font-size: 1.2rem;
     font-weight: 500px;
+}
+
+.nav_menu li a:hover {
+    background-color: #330000;
+    border-radius: 5px;
 }
 
 .ham_menu {
@@ -45,7 +50,7 @@
         top: 0;
         left: -100%;
         z-index: -3;
-        transition: 0.3s;
+        transition: 0.7s;
     }
 
     .active {
