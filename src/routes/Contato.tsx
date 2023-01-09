@@ -5,6 +5,7 @@ const Contato = () => {
   return (
     <div>
       <Navbar />
+      <p>teste</p>
       <Footer />
     </div>
   );
