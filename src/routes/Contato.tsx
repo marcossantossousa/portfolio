@@ -1,11 +1,12 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Projectimg2 from "../components/Projectimg2";
 
 const Contato = () => {
   return (
     <div>
       <Navbar />
-      <p>teste</p>
+      <Projectimg2 heading="CONTATO." text="Entre em contato comigo." />
       <Footer />
     </div>
   );
