@@ -1,12 +1,25 @@
 import "./ProjetosCardStyles.css";
-import projeto1 from "../assets/projeto1.png";
-import { NavLink } from "react-router-dom";
+import ProjetosCard from "./ProjetosCard";
+import TrabalhoCard from "./TrabalhoCard";
 
 const Trabalho = () => {
   return (
     <div className="work-container">
       <h1 className="project-heading">Projetos</h1>
-      <div className="project-container"></div>
+      <div className="project-container">
+        {TrabalhoCard.map((val, ind) => {
+          return (
+            <ProjetosCard
+              key={ind}
+              imgsrc={val.imgsrc}
+              title={val.title}
+              text={val.text}
+              view={val.view}
+              source={val.source}
+            />
+          );
+        })}
+      </div>
     </div>
   );
 };

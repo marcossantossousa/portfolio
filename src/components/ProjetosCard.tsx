@@ -1,26 +1,34 @@
 import "./ProjetosCardStyles.css";
-import projeto1 from "../assets/projeto1.png";
 import { NavLink } from "react-router-dom";
 
-const ProjetosCard = () => {
+interface ProjetosCardProps {
+  title: string;
+  imgsrc: string;
+  text: string;
+  view: string;
+  source: string;
+}
+
+const ProjetosCard: React.FC<ProjetosCardProps> = ({
+  title,
+  imgsrc,
+  text,
+  view,
+  source,
+}) => {
   return (
-    <div className="work-container">
-      <h1 className="project-heading"></h1>
-      <div className="project-container">
-        <div className="project-card">
-          <img src={projeto1} alt="imagem" />
-          <h2 className="project-title">Projeto title</h2>
-          <div className="pro-datails">
-            <p>This text</p>
-            <div className="pro-btns">
-              <NavLink to="url.com" className="btn">
-                Projeto
-              </NavLink>
-              <NavLink to="url.com" className="btn">
-                Código
-              </NavLink>
-            </div>
-          </div>
+    <div className="project-card">
+      <img src={imgsrc} alt="imagem" />
+      <h2 className="project-title">{title}</h2>
+      <div className="pro-datails">
+        <p>{text}</p>
+        <div className="pro-btns">
+          <NavLink to={view} className="btn">
+            Projeto
+          </NavLink>
+          <NavLink to={source} className="btn">
+            Código
+          </NavLink>
         </div>
       </div>
     </div>
