@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import "./AboutContentStyles.css";
 
-import reactfrom from "../assets/reactfrom.jpg";
+import buscafilmes from "../assets/buscafilmes.jpg";
 
-import site from "../assets/site.png";
+import site from "../assets/site.jpg";
 
 const AboutContent = () => {
   return (
@@ -21,10 +21,10 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={reactfrom} className="img" alt="true" />
-          </div>
-          <div className="img-stack botton">
             <img src={site} className="img" alt="true" />
+          </div>
+          <div className="img-stack bottom">
+            <img src={buscafilmes} className="img" alt="true" />
           </div>
         </div>
       </div>
