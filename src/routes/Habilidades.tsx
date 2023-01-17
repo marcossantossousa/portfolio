@@ -6,7 +6,10 @@ function Habilidades() {
   return (
     <div>
       <Navbar />
-      <Projectimg2 heading="habilidades." text="Entre em contato comigo." />
+      <Projectimg2
+        heading="HABILIDADES."
+        text="TECNOLOGIAS QUE ESTUDO E DESENVOLVO."
+      />
       <Footer />
     </div>
   );

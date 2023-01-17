@@ -7,7 +7,7 @@ const Projetos = () => {
   return (
     <div>
       <Navbar />
-      <Projectimg2 heading="PROJETOS." text="Alguns dos projetos" />
+      <Projectimg2 heading="PROJETOS." text="CONFIRA ALGUNS PROJETOS ABAIXO." />
       <Trabalho />
 
       <Footer />

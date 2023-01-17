@@ -7,10 +7,7 @@ const Sobre = () => {
   return (
     <div>
       <Navbar />
-      <Projectimg2
-        heading="SOBRE MIM."
-        text="Sou Desenvolvedor Frontend. Aprimorando meus conhecimentos e habilidades, graduando em ADS."
-      />
+      <Projectimg2 heading="SOBRE MIM." text="Sou Desenvolvedor Frontend." />
       <AboutContent />
 
       <Footer />
