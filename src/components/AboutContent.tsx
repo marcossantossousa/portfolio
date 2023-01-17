@@ -11,8 +11,8 @@ const AboutContent = () => {
       <div className="left">
         <h1>Quem sou?</h1>
         <p>
-          Sou Desenvolvedor Frontend. Aprimorando meus conhecimentos e
-          habilidades, graduando em ADS.
+          Sou Desenvolvedor Frontend. Aprimorando minhas habilidades nas
+          tecnologias Typescript, React Native.
         </p>
         <Link to="/Contato">
           <button className="btn">Contato</button>

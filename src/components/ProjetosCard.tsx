@@ -23,7 +23,7 @@ const ProjetosCard: React.FC<ProjetosCardProps> = ({
       <div className="pro-datails">
         <p>{text}</p>
         <div className="pro-btns">
-          <NavLink to={view} className="btn">
+          <NavLink to={view} target="_blank" className="btn">
             Projeto
           </NavLink>
 
