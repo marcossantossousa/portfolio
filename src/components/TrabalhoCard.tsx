@@ -32,20 +32,6 @@ const ProjectCardData = [
     view: "https://marcossantossousa.github.io/POKEDEX/",
     source: "https://github.com/marcossantossousa/POKEDEX",
   },
-  {
-    imgsrc: site,
-    title: "Costs",
-    text: "Gerenciamento de projetos, orçando e salvando, aqui você pode verificar melhor o seu funcionamento. Ainda em desenvolvimento.",
-    view: "https://coasts.vercel.app/",
-    source: "https://github.com/marcossantossousa/costs",
-  },
-  {
-    imgsrc: site,
-    title: "Costs",
-    text: "Gerenciamento de projetos, orçando e salvando, aqui você pode verificar melhor o seu funcionamento. Ainda em desenvolvimento.",
-    view: "https://coasts.vercel.app/",
-    source: "https://github.com/marcossantossousa/costs",
-  },
 ];
 
 export default ProjectCardData;
