@@ -1,5 +1,4 @@
 import "./ProjetosCardStyles.css";
-import { NavLink } from "react-router-dom";
 
 interface ProjetosCardProps {
   title: string;
@@ -23,13 +22,23 @@ const ProjetosCard: React.FC<ProjetosCardProps> = ({
       <div className="pro-datails">
         <p>{text}</p>
         <div className="pro-btns">
-          <NavLink to={view} target="_blank" className="btn">
+          <a
+            href={view}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
             Projeto
-          </NavLink>
+          </a>
 
-          <NavLink to={source} className="btn">
+          <a
+            href={source}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
             Código
-          </NavLink>
+          </a>
         </div>
       </div>
     </div>

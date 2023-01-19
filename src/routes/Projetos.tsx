@@ -9,7 +9,6 @@ const Projetos = () => {
       <Navbar />
       <Projectimg2 heading="PROJETOS." text="CONFIRA ALGUNS PROJETOS ABAIXO." />
       <Trabalho />
-
       <Footer />
     </div>
   );

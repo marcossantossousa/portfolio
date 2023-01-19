@@ -1,6 +1,7 @@
 import projeto1 from "../assets/projeto1.png";
 import buscafilmes from "../assets/buscafilmes.jpg";
 import site from "../assets/site.jpg";
+import pokedex from "../assets/pokedex.gif";
 
 const ProjectCardData = [
   {
@@ -19,10 +20,31 @@ const ProjectCardData = [
   },
   {
     imgsrc: site,
-    title: "Coasts",
+    title: "Costs",
     text: "Gerenciamento de projetos, orçando e salvando, aqui você pode verificar melhor o seu funcionamento. Ainda em desenvolvimento.",
-    view: "https://buscador-git-hub-red.vercel.app/",
-    source: "https://github.com/marcossantossousa/Buscador_GitHub",
+    view: "https://coasts.vercel.app/",
+    source: "https://github.com/marcossantossousa/costs",
+  },
+  {
+    imgsrc: pokedex,
+    title: "Pokedex",
+    text: "Faça busca do seu pokemon, veja sua animação e exploreu o que quiser. Projeto realizado em javascript, você pode fazer buscas de pokemon. Projeto otimizado e responsivo. ",
+    view: "https://marcossantossousa.github.io/POKEDEX/",
+    source: "https://github.com/marcossantossousa/POKEDEX",
+  },
+  {
+    imgsrc: site,
+    title: "Costs",
+    text: "Gerenciamento de projetos, orçando e salvando, aqui você pode verificar melhor o seu funcionamento. Ainda em desenvolvimento.",
+    view: "https://coasts.vercel.app/",
+    source: "https://github.com/marcossantossousa/costs",
+  },
+  {
+    imgsrc: site,
+    title: "Costs",
+    text: "Gerenciamento de projetos, orçando e salvando, aqui você pode verificar melhor o seu funcionamento. Ainda em desenvolvimento.",
+    view: "https://coasts.vercel.app/",
+    source: "https://github.com/marcossantossousa/costs",
   },
 ];
 
