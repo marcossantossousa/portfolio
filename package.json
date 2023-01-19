@@ -5,11 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "preview": "vite preview"
+    "build": "vite build",
+    "serve": " npm run build && vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
